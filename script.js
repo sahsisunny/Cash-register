@@ -38,6 +38,8 @@ function validateAmount() {
           const amountToBeReturned = cashGvn - billAmt;
           calculateChange(amountToBeReturned);
           outputArea.style.display = "block";
+          message.style.display = "none";
+
 
      } else {
           showMessage("Do you wanna wash plates?");
